@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <div id="viewScoreBtn">
+            <a>View Highscores</a>
+        </div>
+        <!-- <button ></button> -->
+        <p>Time: <span id="time"></span></p>
+    </div>
+    <div class="center" id="quiz-container">
+        <button id="button">Start quiz</button>
+        <div id="quiz"></div>
+        <button id="next">Next</button>
+    </div>
+    <div id="nameContainer" class="center hide">
+        <label>Please enter your name</label>
+        <input id="name" type="text">
+        <button type="submit" id="submitBtn">Submit</button>
+    </div>
+    <div id="display-scores" class="hide">display score here</div>
+    
+    <script src="questions.js"></script>
+    <script src="Script.js"></script>
+</body>
+</html>

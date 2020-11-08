@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    padding: 10px;
+    background-color: purple;
+    color: white;
+}
+
+.hide {
+    display: none;
+}
+
+.timeOver {
+    font-size: 49px;
+    color: blueviolet;
+    margin: 50px;
+}
+
+.testScore {
+    margin-left: 15px;
+}
+
+#viewScoreBtn {
+ color: blueviolet;
+}
